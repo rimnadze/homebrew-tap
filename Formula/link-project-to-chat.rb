@@ -3,20 +3,20 @@ class LinkProjectToChat < Formula
 
   desc "Link a project directory to a Telegram bot that chats with Claude"
   homepage "https://github.com/rimnadze/link-project-to-chat"
-  url "https://files.pythonhosted.org/packages/28/de/b960e7ffa053b89349042599703c678441f58a264424006d3a1fddfe8169/link_project_to_chat-0.1.0.tar.gz"
-  sha256 "bbc7e715052dd4e2d80b4b3eb2e61e1e218d084b447ed151378df218c425fc7b"
+  url "https://files.pythonhosted.org/packages/22/f9/7368d7f45116d24a62a08a73f6fda842b4d0cad7d26b3a727e11d4845e55/link_project_to_chat-0.2.0.tar.gz"
+  sha256 "33b531404727b5656ab1a40fdf28aaa4f65cf406a6bfcec7ba608a0c3f2c0f04"
   license "MIT"
 
   depends_on "python@3.13"
 
   resource "python-telegram-bot" do
-    url "https://files.pythonhosted.org/packages/db/fc/0196e0d7ad247011a560788db204e0a28d76ab75b3d7c7131878f8fb5a06/python_telegram_bot-22.3.tar.gz"
-    sha256 "513d5ab9db96dcf25272dad0a726555e80edf60d09246a7d0d425b77115f5440"
+    url "https://files.pythonhosted.org/packages/e4/25/2258161b1069e66d6c39c0a602dbe57461d4767dc0012539970ea40bc9d6/python_telegram_bot-22.7.tar.gz"
+    sha256 "784b59ea3852fe4616ad63b4a0264c755637f5d725e87755ecdee28300febf61"
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/cd/0f/62ca20172d4f87d93cf89665fbaedcd560ac48b465bd1d92bfc7ea6b0a41/click-8.2.0.tar.gz"
-    sha256 "f5452aeddd9988eefa20f90f05ab66f17fce1ee2a36907fd30b05bbb5953814d"
+    url "https://files.pythonhosted.org/packages/3d/fa/656b739db8587d7b5dfa22e22ed02566950fbfbcdc20311993483657a5c0/click-8.3.1.tar.gz"
+    sha256 "12ff4785d337a1bb490bb7e9c2b1ee5da3112e94a8622f26a6c77f5d2fc6842a"
   end
 
   resource "httpx" do
@@ -30,8 +30,8 @@ class LinkProjectToChat < Formula
   end
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/96/f0/5eb65b2bb0d09ac6776f2eb54adee6abe8228ea05b20a5ad0e4945de8aac/anyio-4.12.1.tar.gz"
-    sha256 "41cfcc3a4c85d3f05c932da7c26d0201ac36f72abd4435ba90d0464a3ffed703"
+    url "https://files.pythonhosted.org/packages/19/14/2c5dd9f512b66549ae92767a9c7b330ae88e1932ca57876909410251fe13/anyio-4.13.0.tar.gz"
+    sha256 "334b70e641fd2221c1505b3890c69882fe4a2df910cba14d97019b90b24439dc"
   end
 
   resource "h11" do
