@@ -3,8 +3,8 @@ class LinkProjectToChat < Formula
 
   desc "Link a project directory to a Telegram bot that chats with Claude"
   homepage "https://github.com/rimnadze/link-project-to-chat"
-  url "https://files.pythonhosted.org/packages/22/f9/7368d7f45116d24a62a08a73f6fda842b4d0cad7d26b3a727e11d4845e55/link_project_to_chat-0.2.0.tar.gz"
-  sha256 "33b531404727b5656ab1a40fdf28aaa4f65cf406a6bfcec7ba608a0c3f2c0f04"
+  url "https://files.pythonhosted.org/packages/7c/8c/29a7557335a8b0a1de3a49db77fe8c78e0736452cf2dca2156b0fd0b72eb/link_project_to_chat-0.7.0.tar.gz"
+  sha256 "af9bf2fd7bbca688ae5003cdab1a31e22c2fb042324712ddbffdc61b46216658"
   license "MIT"
 
   depends_on "python@3.13"
@@ -15,8 +15,8 @@ class LinkProjectToChat < Formula
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/3d/fa/656b739db8587d7b5dfa22e22ed02566950fbfbcdc20311993483657a5c0/click-8.3.1.tar.gz"
-    sha256 "12ff4785d337a1bb490bb7e9c2b1ee5da3112e94a8622f26a6c77f5d2fc6842a"
+    url "https://files.pythonhosted.org/packages/57/75/31212c6bf2503fdf920d87fee5d7a86a2e3bcf444984126f13d8e4016804/click-8.3.2.tar.gz"
+    sha256 "14162b8b3b3550a7d479eafa77dfd3c38d9dc8951f6f69c78913a8f9a7540fd5"
   end
 
   resource "httpx" do
