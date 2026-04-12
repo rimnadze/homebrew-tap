@@ -3,8 +3,8 @@ class LinkProjectToChat < Formula
 
   desc "Link a project directory to a Telegram bot that chats with Claude"
   homepage "https://github.com/rimnadze/link-project-to-chat"
-  url "https://files.pythonhosted.org/packages/cb/48/64b9f602581d2f36e33aef686a7f315d5f98ed631fd3555ade1e1343989d/link_project_to_chat-0.8.0.tar.gz"
-  sha256 "d3609081a9046ba17cd162c6b31d037540899026dc61abbd451f9452d5061324"
+  url "https://files.pythonhosted.org/packages/44/dd/bb5c87ebc1a69f1e6eb5445069313a74e4dc34a3af678c0d4577dbe3040c/link_project_to_chat-0.11.0.tar.gz"
+  sha256 "e86179c7ab50bdfe374e59956b1e851397476aa8b7ba5ace80fdfe3e2904a65e"
   license "MIT"
 
   depends_on "python@3.13"
